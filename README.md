@@ -32,5 +32,4 @@ Sinta-se à vontade para explorar os gráficos e métricas que compõem meus pro
 
 ---
 <div align="center">
-  <p>Feito com 💡 e foco em resultados por Sergio Emanoel</p>
-</div>
+
