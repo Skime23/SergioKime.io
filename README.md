@@ -42,9 +42,11 @@ Sinta-se à vontade para explorar os gráficos e métricas que compõem meus pro
 
 ### 🌽 Exemplo de Dashboard: Produção de Milho
 
+
 Este aqui é um exemplo de dashboard que eu desenvolvi! **Clica na imagem abaixo para abrir e dar uma olhada no projeto interativo.**
 
 O contexto aqui foi um levantamento de dados que fiz para um blog pessoal, onde esccrevo e comento sobre o desenvolvimento de produtos agrícolas no Brasil. Usei este painel para comparar a produção brasileira com o resto do mundo e avaliar como as nossas safras estão performando ao longo dos anos.
+
 
 <br>
 
