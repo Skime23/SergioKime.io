@@ -1,4 +1,4 @@
-<img src="https://img.freepik.com/fotos-gratis/jovem-barbudo-com-camisa-listrada_273609-5677.jpg?semt=ais_hybrid&w=740&q=80" align="right" width="150" style="border-radius: 50%; margin-left: 20px;">
+<img src="https://i.ibb.co/mC6fXP2c/Gemini-Generated-Image-ue1i2tue1i2tue1i-1-1.png" align="right" width="150" style="border-radius: 50%; margin-left: 20px;">
 
 
 
