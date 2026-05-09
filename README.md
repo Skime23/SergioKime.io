@@ -35,9 +35,10 @@ Sinta-se à vontade para explorar os gráficos e métricas que compõem meus pro
 *   📧 **Email:** [sergiokime12@gmail.com](mailto:sergiokime12@gmail.com)
 
 ---
+
 <div align="center">
 
----
+
 ### 🌽 Exemplo de Dashboard: Produção de Milho
 
 Este aqui é um exemplo de dashboard que eu desenvolvi! **Clica na imagem abaixo para abrir e dar uma olhada no projeto interativo.**
