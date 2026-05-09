@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sergio Kime - Portfólio BI</title>
+    <title>Sergio Emanoel - Portfólio BI</title>
     <style>
-        /* Força o fundo azul em toda a página */
+        /* Fundo geral da página (Azul) */
         html, body {
             background-color: #004763 !important;
             margin: 0;
             padding: 0;
-            color: #ffffff;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
@@ -20,99 +19,117 @@
             padding: 40px 20px;
         }
 
-        /* Caixa que segura o seu texto original */
+        /* Cartão Central (Branco) */
         .main-container {
-            max-width: 900px;
+            max-width: 850px;
             width: 100%;
-            background-color: rgba(255, 255, 255, 0.03); /* Leve transparência */
-            padding: 40px;
+            background-color: #ffffff !important; /* Parte interna branca */
             border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+            overflow: hidden; /* Garante que as cores não vazem as bordas arredondadas */
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            color: #333333; /* Texto escuro para ler no fundo branco */
         }
 
-        /* Estilo para sua foto à direita */
+        /* Conteúdo interno com margens */
+        .content-padding {
+            padding: 40px;
+        }
+
+        /* Foto e Header */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
         .profile-pic {
-            float: right;
-            width: 150px;
+            width: 130px;
+            height: 130px;
             border-radius: 50%;
-            margin-left: 20px;
-            border: 3px solid #00d4ff;
+            border: 3px solid #004763;
+            object-fit: cover;
         }
 
-        h1, h3 { color: #00d4ff; }
-        
-        a { color: #00d4ff; text-decoration: none; font-weight: bold; }
-        a:hover { text-decoration: underline; }
+        h1 { color: #004763; margin: 0; font-size: 1.8rem; }
+        h3 { color: #004763; border-bottom: 2px solid #eee; padding-bottom: 5px; }
+
+        /* SEÇÃO DO DASHBOARD (AZUL) */
+        .dashboard-section {
+            background-color: #004763 !important; /* Fundo azul específico para esta parte */
+            color: #ffffff !important;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .dashboard-section h3 { color: #00d4ff; border-color: rgba(255,255,255,0.1); }
 
         .dashboard-img {
-            display: block;
-            margin: 20px auto;
+            width: 100%;
+            max-width: 700px;
             border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.4);
             transition: transform 0.3s;
-            border: 1px solid rgba(255,255,255,0.2);
         }
 
         .dashboard-img:hover { transform: scale(1.02); }
 
-        hr { border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 30px 0; }
+        a { color: #0077b6; font-weight: bold; text-decoration: none; }
+        .dashboard-section a { color: #00d4ff; }
 
-        /* Limpa o float da imagem para o texto não subir */
-        .clearfix::after { content: ""; clear: both; display: table; }
+        hr { border: 0; border-top: 1px solid #eee; margin: 25px 0; }
 
         @media (max-width: 600px) {
-            .profile-pic { float: none; display: block; margin: 0 auto 20px; }
-            .header-content { text-align: center; }
+            .header { flex-direction: column-reverse; text-align: center; }
         }
     </style>
 </head>
 <body>
 
-<div class="main-container clearfix">
+<div class="main-container">
     
-    <!-- INÍCIO DO SEU TEXTO ORIGINAL ADAPTADO -->
-    <img src="https://i.ibb.co/mC6fXP2c/Gemini-Generated-Image-ue1i2tue1i2tue1i-1-1.png" class="profile-pic">
+    <!-- Parte Superior Branca -->
+    <div class="content-padding">
+        <div class="header">
+            <div>
+                <h1>📊 Portfólio de Business Intelligence</h1>
+                <p style="color: #666;"><i>"Transformando variáveis de campo em inteligência estratégica."</i></p>
+            </div>
+            <img src="https://github.com" class="profile-pic" alt="Sergio Emanoel">
+        </div>
 
-    <div class="header-content" style="text-align: center;">
-        <h1>📊 Portfólio de Business Intelligence</h1>
-        <p><i>"Transformando variáveis de campo em inteligência estratégica para a tomada de decisão."</i></p>
+        <hr>
+
+        <h3>👋 Olá! Eu me chamo Sergio</h3>
+        <p>Sou <b>Engenheiro Agrônomo</b> e <b>Técnico Agropecuário</b>, especialista em soluções de BI aplicadas ao agronegócio. Minha trajetória une a vivência técnica operacional ao suporte analítico para alta gestão, convertendo dados de campo em dashboards dinâmicos.</p>
+
+        <h3>🚀 O que você encontrará aqui:</h3>
+        <ul style="line-height: 1.8;">
+            <li><b>Dashboards de P&D:</b> Análises experimentais e produtivas.</li>
+            <li><b>KPIs:</b> Monitoramento de fluxo de dados agrícola.</li>
+            <li><b>SQL:</b> Estruturação de dados estratégica.</li>
+        </ul>
     </div>
 
-    <hr>
+    <!-- SEÇÃO DO DASHBOARD (AZUL) -->
+    <div class="dashboard-section">
+        <h3>🌽 Painel Analítico: Produção de Milho</h3>
+        <p>Este é um exemplo de dashboard interativo que desenvolvi para análise de safras brasileiras vs. mercado mundial.</p>
+        <p><b>Clique na imagem abaixo para abrir o painel:</b></p>
 
-    <h3>👋 Olá! Eu me chamo Sergio</h3>
-    <p>Este repositório hospeda o meu <b>centro de controle e portfólio</b>. Ele foi desenvolvido não apenas para organizar meus projetos, mas como uma demonstração prática das minhas habilidades no Power BI.</p>
+        <a href="https://powerbi.com" target="_blank">
+            <img src="https://ibb.co" class="dashboard-img" alt="Abrir Power BI">
+        </a>
+    </div>
 
-    <p>Sou <b>Engenheiro Agrônomo</b> (fase final de formação) e <b>Técnico Agropecuário</b>, especialista em soluções de BI aplicadas ao agronegócio. Minha trajetória une a vivência técnica operacional ao suporte analítico para alta gestão, convertendo o fluxo de dados de campo e P&D em dashboards dinâmicos que garantem previsibilidade e inteligência empresarial.</p>
-
-    <hr>
-
-    <h3>🚀 O que você encontrará aqui:</h3>
-    <ul>
-        <li><b>Dashboards de P&D:</b> Análises experimentais e produtivas.</li>
-        <li><b>Indicadores de Performance (KPIs):</b> Monitoramento de fluxo de dados agrícola.</li>
-        <li><b>Soluções em SQL:</b> Estruturação de dados para análise estratégica.</li>
-    </ul>
-
-    <p>Sinta-se à vontade para explorar os gráficos e métricas que compõem meus projetos!</p>
-
-    <hr>
-
-    <h3>📬 Contato</h3>
-    <ul>
-        <li>📧 <b>Email:</b> <a href="mailto:sergiokime12@gmail.com">sergiokime12@gmail.com</a></li>
-        <li>📞 <b>WhatsApp:</b> <a href="https://wa.me" target="_blank">(73) 98254-0505</a></li>
-    </ul>
-
-    <hr>
-
-    <h3>🌽 Painel Analítico da Produção de Milho no Brasil</h3>
-    <p>Este aqui é um exemplo de dashboard que eu desenvolvi! <b>Clica na imagem abaixo para abrir e dar uma olhada no projeto interativo.</b></p>
-
-    <p>O contexto aqui foi um levantamento de dados que fiz para um blog pessoal, onde escrevo e comento sobre o desenvolvimento de produtos agrícolas no Brasil. Usei este painel para comparar a produção brasileira com o resto do mundo e avaliar como as nossas safras estão performando ao longo dos anos.</p>
-
-    <a href="https://app.powerbi.com/view?r=eyJrIjoiNDZjYmFhNjAtZjc2Yi00ZjFkLTllNzUtYzE3MmJiZDNjMjkzIiwidCI6IjdhOWMwNDc1LWZhZTMtNDU2Yy04ZGU3LTg5Y2Y4MzA2MjNjMiJ9" target="_blank">
-        <img src="https://i.ibb.co/0pDr6XF6/Captura-de-tela-2026-05-09-175309.png" alt="Dashboard de Milho" class="dashboard-img" width="85%">
-    </a>
+    <!-- Parte Inferior Branca -->
+    <div class="content-padding">
+        <h3>📬 Contato</h3>
+        <p>📧 Email: <a href="mailto:sergiokime12@gmail.com">sergiokime12@gmail.com</a></p>
+        <p>📞 WhatsApp: <a href="https://wa.me" target="_blank">(73) 98254-0505</a></p>
+    </div>
 
 </div>
 
