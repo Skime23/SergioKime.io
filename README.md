@@ -1,8 +1,12 @@
+<img src="https://img.freepik.com/fotos-gratis/jovem-barbudo-com-camisa-listrada_273609-5677.jpg?semt=ais_hybrid&w=740&q=80" align="right" width="150" style="border-radius: 50%; margin-left: 20px;">
+
+
+
 <div align="center">
   <h1>📊 Portfólio de Business Intelligence & Agronegócio</h1>
   
   <p>
-    <img src="https://shields.io" alt="Power BI">
+  
   </p>
 
   <p><i>"Transformando variáveis de campo em inteligência estratégica para a tomada de decisão."</i></p>
