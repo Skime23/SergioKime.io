@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Sergio Kime</title>
     <style>
-        /* FUNDO GERAL (AZUL) */
+        /* FUNDO GERAL DA PÁGINA (AZUL) */
         html, body {
             background-color: #004763 !important;
             margin: 0;
@@ -17,83 +17,108 @@
 
         body { padding: 40px 20px; }
 
-        /* CARTÃO CENTRAL */
+        /* CARTÃO CENTRAL ÚNICO */
         .container {
             max-width: 900px;
             width: 100%;
-            background-color: #ffffff !important; /* PARTE INTERNA BRANCA */
+            background-color: #ffffff !important; /* COR BRANCA INTERNA */
             border-radius: 15px;
             overflow: hidden;
             box-shadow: 0 10px 30px rgba(0,0,0,0.3);
             color: #333;
         }
 
-        /* AJUSTES PARA O SEU CONTEÚDO ORIGINAL */
-        .padding-interna { padding: 40px; }
-        
+        /* CONTEÚDO EM FUNDO BRANCO */
+        .secao-branca { padding: 40px; }
+
+        /* SEÇÃO DO DASHBOARD (AZUL) */
         .secao-azul-dashboard {
-            background-color: #004763 !important; /* DESTAQUE AZUL NO DASHBOARD */
+            background-color: #004763 !important; 
             color: #ffffff !important;
-            padding: 40px;
-            margin-top: 20px;
+            padding: 50px 40px;
+            text-align: center;
         }
 
+        /* AJUSTES DE TEXTO E IMAGENS */
+        .profile-pic {
+            float: right;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-left: 20px;
+            border: 3px solid #004763;
+            object-fit: cover;
+        }
+
+        h1, h3 { color: #004763; margin-top: 0; }
         .secao-azul-dashboard h3 { color: #00d4ff !important; }
         
-        /* Ajuste para sua foto e links */
-        img[align="right"] { border: 3px solid #004763; }
         a { color: #0077b6; text-decoration: none; font-weight: bold; }
-        .secao-azul-dashboard a { color: #00d4ff; }
+        .secao-azul-dashboard a { color: #00d4ff; text-decoration: underline; }
+
         hr { border: 0; border-top: 1px solid #eee; margin: 25px 0; }
+
+        .dashboard-img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .clearfix::after { content: ""; clear: both; display: table; }
+
+        @media (max-width: 600px) {
+            .profile-pic { float: none; display: block; margin: 0 auto 20px; }
+            .header-text { text-align: center; }
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
     
-    <div class="padding-interna">
-        <!-- SEU CONTEÚDO ORIGINAL ABAIXO (BRANCO) -->
-        <img src="https://i.ibb.co/mC6fXP2c/Gemini-Generated-Image-ue1i2tue1i2tue1i-1-1.png" align="right" width="150" style="border-radius: 50%; margin-left: 20px;">
-
-        <div align="center">
-        <h1>📊 Portfólio de Business Intelligence</h1>
-        <p><i>"Transformando variáveis de campo em inteligência estratégica para a tomada de decisão."</i></p>
+    <!-- PARTE SUPERIOR (BRANCA) -->
+    <div class="secao-branca clearfix">
+        <img src="https://github.com" class="profile-pic" alt="Sergio Emanoel">
+        
+        <div class="header-text">
+            <h1>📊 Portfólio de Business Intelligence</h1>
+            <p style="color: #666;"><i>"Transformando variáveis de campo em inteligência estratégica para a tomada de decisão."</i></p>
         </div>
 
         <hr>
 
-        <h3>Olá! Eu me chamo Sergio</h3>
-        <p>Este repositório hospeda o meu **centro de controle e portfólio**. Ele foi desenvolvido não apenas para organizar meus projetos, mas como uma demonstração prática das minhas habilidades no Power BI.</p>
+        <h3>👋 Olá! Eu me chamo Sergio</h3>
+        <p>Este repositório hospeda o meu <b>centro de controle e portfólio</b>. Ele foi desenvolvido não apenas para organizar meus projetos, mas como uma demonstração prática das minhas habilidades no Power BI.</p>
 
-        <p>Sou **Engenheiro Agrônomo** (fase final de formação) e **Técnico Agropecuário**, especialista em soluções de BI aplicadas ao agronegócio. Minha trajetória une a vivência técnica operacional ao suporte analítico para alta gestão, convertendo o fluxo de dados de campo e P&D em dashboards dinâmicos que garantem previsibilidade e inteligência empresarial.</p>
-
-        <hr>
+        <p>Sou <b>Engenheiro Agrônomo</b> e <b>Técnico Agropecuário</b>, especialista em soluções de BI aplicadas ao agronegócio. Minha trajetória une a vivência técnica operacional ao suporte analítico para alta gestão, convertendo o fluxo de dados de campo e P&D em dashboards dinâmicos.</p>
 
         <h3>🚀 O que você encontrará aqui:</h3>
-        <ul>
+        <ul style="line-height: 1.8;">
             <li><b>Dashboards de P&D:</b> Análises experimentais e produtivas.</li>
             <li><b>Indicadores de Performance (KPIs):</b> Monitoramento de fluxo de dados agrícola.</li>
             <li><b>Soluções em SQL:</b> Estruturação de dados para análise estratégica.</li>
         </ul>
-        <p>Sinta-se à vontade para explorar os gráficos e métricas que compõem meus projetos!</p>
-        
-        <hr>
-
-        <h3>📬 Contato</h3>
-        <ul>
-            <li>📧 <b>Email:</b> <a href="mailto:sergiokime12@gmail.com">sergiokime12@gmail.com</a></li>
-        </ul>
     </div>
 
-    <!-- SEÇÃO DO DASHBOARD (DESTAQUE AZUL) -->
-    <div class="secao-azul-dashboard" align="center">
-        <h3>🌽 Painel Analitico da Produção de Milho no Brasil</h3>
-        <p>Este aqui é um exemplo de dashboard que eu desenvolvi! **Clica na imagem abaixo para abrir e dar uma olhada no projeto interativo.**</p>
-        <p>O contexto aqui foi um levantamento de dados que fiz para um blog pessoal, onde escrevo e comento sobre o desenvolvimento de produtos agrícolas no Brasil.</p>
-
-        <a href="https://app.powerbi.com/view?r=eyJrIjoiNDZjYmFhNjAtZjc2Yi00ZjFkLTllNzUtYzE3MmJiZDNjMjkzIiwidCI6IjdhOWMwNDc1LWZhZTMtNDU2Yy04ZGU3LTg5Y2Y4MzA2MjNjMiJ9" target="_blank">
-            <img src="https://i.ibb.co/0pDr6XF6/Captura-de-tela-2026-05-09-175309.png" alt="Dashboard de Milho" border="0" width="80%" style="border-radius: 10px; margin-top: 20px;">
+    <!-- SEÇÃO DO DASHBOARD (AZUL) -->
+    <div class="secao-azul-dashboard">
+        <h3>🌽 Painel Analítico: Produção de Milho no Brasil</h3>
+        <p>Este é um exemplo de dashboard que eu desenvolvi! <b>Clique na imagem abaixo para abrir o projeto interativo:</b></p>
+        
+        <a href="https://powerbi.com" target="_blank">
+            <img src="https://ibb.co" alt="Ver Dashboard de Milho" class="dashboard-img">
+            <br><br>
+            <span>Acessar Painel Interativo ➔</span>
         </a>
+    </div>
+
+    <!-- PARTE INFERIOR / CONTATO (BRANCA) -->
+    <div class="secao-branca">
+        <h3>📬 Contato</h3>
+        <p>📧 Email: <a href="mailto:sergiokime12@gmail.com">sergiokime12@gmail.com</a></p>
+        <p>📞 WhatsApp: <a href="https://wa.me" target="_blank">(73) 98254-0505</a></p>
     </div>
 
 </div>
