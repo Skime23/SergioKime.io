@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sergio Kime - Portfólio BI</title>
+    <style>
+        body {
+            background-color: #004763; /* A cor que você escolheu */
+            color: #ffffff; /* Texto branco para dar leitura */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 850px;
+            background-color: rgba(255, 255, 255, 0.05); /* Um leve fundo para o texto */
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+        .profile-img {
+            width: 150px;
+            border-radius: 50%;
+            border: 3px solid #00d4ff;
+        }
+        h1 { color: #00d4ff; margin-top: 0; }
+        a { color: #00d4ff; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+        .dashboard-img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s;
+            margin-top: 20px;
+        }
+        .dashboard-img:hover { transform: scale(1.02); }
+        hr { border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 30px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <h1>📊 Portfólio de BI & Agronegócio</h1>
+                <p><i>"Transformando variáveis de campo em inteligência estratégica."</i></p>
+            </div>
+            <img src="https://ibb.co" class="profile-img">
+        </div>
+
+        <hr>
+
+        <h3>👋 Olá! Eu me chamo Sergio Emanoel</h3>
+        <p>Sou Engenheiro Agrônomo e especialista em soluções de Business Intelligence aplicadas ao agronegócio. Minha trajetória une a vivência técnica no campo com o suporte analítico para alta gestão.</p>
+
+        <hr>
+
+        <h3>🌽 Exemplo de Dashboard: Produção de Milho</h3>
+        <p>Este projeto foi desenvolvido para o meu blog pessoal. <b>Clique na imagem abaixo para abrir o painel interativo:</b></p>
+        
+        <a href="https://powerbi.com" target="_blank">
+            <img src="https://ibb.co" class="dashboard-img" alt="Dashboard de Milho">
+        </a>
+
+        <hr>
+
+        <h3>📬 Contato</h3>
+        <p>📧 Email: <a href="mailto:sergiokime12@gmail.com">sergiokime12@gmail.com</a></p>
+        <p>🌐 Link do Portfólio: <a href="https://github.io">skime23.github.io/SergioKime.github.io/</a></p>
+    </div>
+</body>
+</html>
