@@ -1,15 +1,9 @@
 <img src="https://i.ibb.co/mC6fXP2c/Gemini-Generated-Image-ue1i2tue1i2tue1i-1-1.png" align="right" width="150" style="border-radius: 50%; margin-left: 20px;">
 
-
-
 <div align="center">
-  <h1>📊 Portfólio de Business Intelligence & Agronegócio</h1>
-  
-  <p>
-  
-  </p>
+<h1>📊 Portfólio de Business Intelligence & Agronegócio</h1>
 
-  <p><i>"Transformando variáveis de campo em inteligência estratégica para a tomada de decisão."</i></p>
+<p><i>"Transformando variáveis de campo em inteligência estratégica para a tomada de decisão."</i></p>
 </div>
 
 ---
@@ -36,15 +30,18 @@ Sinta-se à vontade para explorar os gráficos e métricas que compõem meus pro
 
 ---
 
-<div align="center">
-  
 <br>
+
 ### 🌽 Exemplo de Dashboard: Produção de Milho
+
 Este aqui é um exemplo de dashboard que eu desenvolvi! **Clica na imagem abaixo para abrir e dar uma olhada no projeto interativo.**
-O contexto aqui foi um levantamento de dados que fiz para um blog pessoal, onde esccrevo e comento sobre o desenvolvimento de produtos agrícolas no Brasil. Usei este painel para comparar a produção brasileira com o resto do mundo e avaliar como as nossas safras estão performando ao longo dos anos.
+
+O contexto aqui foi um levantamento de dados que fiz para um blog pessoal, onde escrevo e comento sobre o desenvolvimento de produtos agrícolas no Brasil. Usei este painel para comparar a produção brasileira com o resto do mundo e avaliar como as nossas safras estão performando ao longo dos anos.
+
 <br>
+
 <a href="https://app.powerbi.com/view?r=eyJrIjoiNDZjYmFhNjAtZjc2Yi00ZjFkLTllNzUtYzE3MmJiZDNjMjkzIiwidCI6IjdhOWMwNDc1LWZhZTMtNDU2Yy04ZGU3LTg5Y2Y4MzA2MjNjMiJ9" target="_blank">
-  <img src="https://i.ibb.co/0pDr6XF6/Captura-de-tela-2026-05-09-175309.png" alt="Dashboard de Milho" border="0" width="50%">
+<img src="https://i.ibb.co/0pDr6XF6/Captura-de-tela-2026-05-09-175309.png" alt="Dashboard de Milho" border="0" width="80%">
 </a>
 
 <br>
