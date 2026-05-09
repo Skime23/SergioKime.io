@@ -5,44 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sergio Kime - Portfólio BI</title>
     <style>
+        /* O !important garante que o GitHub não sobrescreva sua cor */
+        html, body {
+            background-color: #004763 !important; 
+            margin: 0 !important;
+            padding: 0 !important;
+            min-height: 100vh;
+        }
+        
         body {
-            background-color: #004763; /* A cor que você escolheu */
-            color: #ffffff; /* Texto branco para dar leitura */
+            color: #ffffff !important;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 20px;
             display: flex;
             justify-content: center;
+            padding: 20px !important;
         }
+
         .container {
             max-width: 850px;
-            background-color: rgba(255, 255, 255, 0.05); /* Um leve fundo para o texto */
+            background-color: rgba(255, 255, 255, 0.05);
             padding: 40px;
             border-radius: 15px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            margin-top: 20px;
         }
+
         .header {
             display: flex;
             align-items: center;
             justify-content: space-between;
+            gap: 20px;
             margin-bottom: 30px;
         }
+
         .profile-img {
             width: 150px;
+            height: 150px;
             border-radius: 50%;
             border: 3px solid #00d4ff;
+            object-fit: cover;
         }
-        h1 { color: #00d4ff; margin-top: 0; }
+
+        h1 { color: #00d4ff; margin-top: 0; font-size: 1.8rem; }
+        h3 { color: #00d4ff; }
+        
         a { color: #00d4ff; text-decoration: none; font-weight: bold; }
         a:hover { text-decoration: underline; }
+
         .dashboard-img {
             width: 100%;
             border-radius: 10px;
             transition: transform 0.3s;
             margin-top: 20px;
+            border: 1px solid rgba(255,255,255,0.2);
         }
-        .dashboard-img:hover { transform: scale(1.02); }
+
+        .dashboard-img:hover { transform: scale(1.01); }
+        
         hr { border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 30px 0; }
+
+        @media (max-width: 600px) {
+            .header { flex-direction: column-reverse; text-align: center; }
+            .profile-img { width: 120px; height: 120px; }
+        }
     </style>
 </head>
 <body>
@@ -50,30 +75,32 @@
         <div class="header">
             <div>
                 <h1>📊 Portfólio de BI & Agronegócio</h1>
-                <p><i>"Transformando variáveis de campo em inteligência estratégica."</i></p>
+                <p><i>"Transformando variáveis de campo em inteligência estratégica para a tomada de decisão."</i></p>
             </div>
-            <img src="https://ibb.co" class="profile-img">
+            <!-- Sua foto puxada direto do GitHub -->
+            <img src="https://github.com" class="profile-img" alt="Sergio Emanoel">
         </div>
 
         <hr>
 
         <h3>👋 Olá! Eu me chamo Sergio Emanoel</h3>
-        <p>Sou Engenheiro Agrônomo e especialista em soluções de Business Intelligence aplicadas ao agronegócio. Minha trajetória une a vivência técnica no campo com o suporte analítico para alta gestão.</p>
+        <p>Sou Engenheiro Agrônomo (fase final de formação) e Técnico Agropecuário, especialista em soluções de Business Intelligence aplicadas ao agronegócio. Minha trajetória une a vivência técnica no campo com o suporte analítico para alta gestão.</p>
 
         <hr>
 
         <h3>🌽 Exemplo de Dashboard: Produção de Milho</h3>
-        <p>Este projeto foi desenvolvido para o meu blog pessoal. <b>Clique na imagem abaixo para abrir o painel interativo:</b></p>
+        <p>Este aqui é um exemplo de dashboard que eu desenvolvi! O contexto foi um levantamento de dados para um blog pessoal sobre o desenvolvimento agrícola. <b>Clique na imagem abaixo para abrir o painel interativo:</b></p>
         
         <a href="https://powerbi.com" target="_blank">
-            <img src="https://ibb.co" class="dashboard-img" alt="Dashboard de Milho">
+            <img src="https://ibb.co" class="dashboard-img" alt="Clique para ver o Dashboard de Milho">
         </a>
 
         <hr>
 
         <h3>📬 Contato</h3>
         <p>📧 Email: <a href="mailto:sergiokime12@gmail.com">sergiokime12@gmail.com</a></p>
-        <p>🌐 Link do Portfólio: <a href="https://github.io">skime23.github.io/SergioKime.github.io/</a></p>
+        <p>📞 WhatsApp: <a href="https://wa.me" target="_blank">(73) 98254-0505</a></p>
+        <p>🌐 Site Oficial: <a href="https://github.io">skime23.github.io/SergioKime.io/</a></p>
     </div>
 </body>
 </html>
