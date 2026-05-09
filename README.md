@@ -1,14 +1,14 @@
 <img src="https://i.ibb.co/mC6fXP2c/Gemini-Generated-Image-ue1i2tue1i2tue1i-1-1.png" align="right" width="150" style="border-radius: 50%; margin-left: 20px;">
 
 <div align="center">
-<h1>📊 Portfólio de Business Intelligence & Agronegócio</h1>
+<h1>📊 Portfólio de Business Intelligence</h1>
 
 <p><i>"Transformando variáveis de campo em inteligência estratégica para a tomada de decisão."</i></p>
 </div>
 
 ---
 
-### 👋 Olá! Eu me chamo Sergio
+### Olá! Eu me chamo Sergio
 
 Este repositório hospeda o meu **centro de controle e portfólio**. Ele foi desenvolvido não apenas para organizar meus projetos, mas como uma demonstração prática das minhas habilidades no Power BI. 
 
@@ -32,7 +32,7 @@ Sinta-se à vontade para explorar os gráficos e métricas que compõem meus pro
 
 <br>
 
-### 🌽 Exemplo de Dashboard: Produção de Milho
+### 🌽 Painel Analitico da Produção de Milho no Brasil 
 
 Este aqui é um exemplo de dashboard que eu desenvolvi! **Clica na imagem abaixo para abrir e dar uma olhada no projeto interativo.**
 
