@@ -4,31 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sergio Kime - Portfólio BI</title>
-    <style>
-        /* O !important garante que o GitHub não sobrescreva sua cor */
-        html, body {
-            background-color: #004763 !important; 
-            margin: 0 !important;
-            padding: 0 !important;
-            min-height: 100vh;
-        }
-        
-        body {
-            color: #ffffff !important;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            display: flex;
-            justify-content: center;
-            padding: 20px !important;
-        }
-
-        .container {
-            max-width: 850px;
-            background-color: rgba(255, 255, 255, 0.05);
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-            margin-top: 20px;
-        }
+   <style>
+    /* Isso aqui é para garantir que NADA fique branco */
+    :root { background-color: #004763 !important; }
+    
+    html, body {
+        background-color: #004763 !important; 
+        color: #ffffff !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        min-height: 100% !important;
+    }
+    
+    /* Se houver qualquer fundo branco sobrando, isso mata */
+    * { background-color: transparent; }
+    .container, .container * { background-color: transparent !important; }
+    .container { background-color: rgba(255, 255, 255, 0.05) !important; }
 
         .header {
             display: flex;
